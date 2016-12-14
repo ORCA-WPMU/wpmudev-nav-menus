@@ -1,0 +1,30 @@
+/*
+Theme Name:     WPMU DEV Navigation Menus for Power Users
+Theme URI:      https://github.com/rachelmccollin/wpmudev-nav-menus
+Description:    Theme to support WPMU DEV post on navigation menus
+Author:         Rachel McCollin
+Author URI:     http://rachelmccollin.co.uk/
+Template:       twentysixteen
+Version:        1.0
+*/
+
+@import url("../twentysixteen/style.css");
+
+/* footer menu */
+.footer-menu {
+	width: 100%;
+}
+
+.footer-menu ul {
+	margin-left: 0;
+}
+.footer-menu li {
+	float: left;
+	list-style-type: none;
+	margin-left: 0;
+	margin-right: 20px;
+	font-size: 1.5em;
+}
+.site-info {
+	clear: both;
+}
